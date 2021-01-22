@@ -65,53 +65,58 @@ p {
 	margin: 0 auto;
 }
 #panles{
-	width:100vw;
-	height:676px;
-	/* display: flex;
-	flex-direction: row;
-	justify-content: center; */
-	position: relative;
+	width:90vw;
+	height:650px;
+	display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	position: static; 
 	overflow: hidden;
+	padding: 0px;	
+	padding-right: 0px;
+	padding-left: 0px; 
 	background: white;
 }
 
 .panelHolder{
 	float:left;
 	position: relative;
-	padding-right: 2px;
-	padding-left: 2px;
+	padding-right: 0px;
+	padding-left: 0px; 
 	width:100px;
 	height:676px;
 	overflow:hidden;
 	background:white;
+	padding: 0px;	
 }
 .contentHolder{
 	float:left;
 	position: relative;
 	background-color: #ECECEC;
 	height: 100%;
-	width:772px;
+	width:700px;
+	
 }
 .tab{
-	width:100px;
+	width:70px;
 	height: 676px;
 	position: absolute; 
 	z-index: 1;
 }
 .tab p{
 	color: #575756;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
 	font-family: 'Lato', sans-serif;
-	font-size: 1.3em;
-	padding: 2em 1em;
+	font-size: 1.2em;
+	padding: 1em;
 }
 
 .tab img{
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	position: static;
 	
 }
@@ -136,21 +141,18 @@ p {
 .model p {
 	font-family: 'Lato', sans-serif;
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-align: center;
-	padding: 1em 2em;
+	padding: 1em;
 }
 
-.model img {
-	
-	width: auto;
-	
-}
+
 .panelTitle.last{
-	padding: 0;	
+	padding: 0px;	
 }
 .active.panelHolder{
-	width: 772px;
+	width: 1200px;
+	padding: 0px;
 }
 .active .tab{
 	opacity: 0;
@@ -180,7 +182,7 @@ p {
 }
 
 .imagens {
-	 float: right;
+	float: center;
     border: transparent thin solid;
     padding: 5px;
     margin: 0px 10px 10px 0;
@@ -190,4 +192,8 @@ p {
 #ufrn {
   height: 80px;
   width: auto;
+}
+
+.largura {
+  width: 300px;
 }
