@@ -12,7 +12,7 @@ p {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: 150px;
+    margin-left: auto;
 }
 .accessibility-bar-wrapper {
 	position: relative;
@@ -107,27 +107,45 @@ p {
 	
 }
 .tab{
-	margin-left: 0px;
-	width:80px;
-	height: 676px;
-	position: absolute; 
-	z-index: 1;
+	/*margin-left: 0px; 
+	width:676px;
+	height: 80px;
+	z-index: 1; 
+	position: absolute; */
+
+	height: 50px;
 }
 .tab p{
 	color: #575756;
 	font-weight: 600;
 	text-transform: uppercase;
-	writing-mode: vertical-rl;
-	transform: rotate(180deg);
+	/*writing-mode: vertical-rl;
+	transform: rotate(180deg); */
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2em;
-	padding: 1em;
+	padding: 10px;
+	margin-left: 70px;
+}
+
+.tab .tabmobile p{
+	color: #565657;
+	font-weight: 600;
+	text-transform: uppercase;
+	/*writing-mode: vertical-rl;
+	transform: rotate(180deg); */
+	font-family: 'Lato', sans-serif;
+	font-size: .9em;
+	padding: 5px;
+	margin-left: 70px;
 }
 
 .tab img{
+	padding: 0px;
+	margin-top: -20px;
 	width: 90px;
 	height: 90px;
-	position: static;
+	position: absolute;
+	
 	
 }
 .model{
@@ -147,6 +165,7 @@ p {
 	font-size: 3em;
 	text-align: center;
 	text-transform: uppercase;
+	
 }
 .model p {
 	font-family: 'Lato', sans-serif;
@@ -191,6 +210,7 @@ p {
 }
 
 .imagens {
+	
 	float: center;
     border: transparent thin solid;
     padding: 5px;
@@ -203,6 +223,41 @@ p {
   width: auto;
 }
 
+.largura-card2 {
+	width: 350px;
+  }
+
 .largura {
-  width: 300px;
+  width: 450px;
+}
+
+.card .card-body {
+    background-image: url(../img/bg_accordion.jpg);
+    background-color: #3d3d3d;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.card .card-body h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.btn-link:hover {
+    color: none;
+    text-decoration: none;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: none;
+    text-decoration: none;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow:  none;
 }
